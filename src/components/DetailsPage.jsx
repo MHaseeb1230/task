@@ -9,7 +9,7 @@ const DetailsPage = () => {
   const [data,setData]=useState('')
   useEffect(()=>{
     const fetchData=async()=>{
-    await axios.get(`https://www.omdbapi.com/?i=${params.id}&apikey=8dcbc850`).then((res)=>{
+    await axios.get(`https://www.omdbapi.com/?i=${params.id}&apikey=26204fbb`).then((res)=>{
        setData(res.data)
      })
     }
