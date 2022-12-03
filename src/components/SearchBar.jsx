@@ -10,7 +10,7 @@ const SearchBar = () => {
     show: false,
     data: "",
   });
-  const API_KEY = "8dcbc850";
+  const API_KEY = "26204fbb";
 
   const handleSearch=()=>{
     setTitle(search);
